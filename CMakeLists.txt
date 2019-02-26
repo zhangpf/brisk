@@ -45,7 +45,7 @@ else()
 endif()
 
 # require OpenCV
-find_package( OpenCV REQUIRED )
+find_package( OpenCV 4.0.0 REQUIRED )
 include_directories(BEFORE ${OpenCV_INCLUDE_DIRS}) 
 if (${CMAKE_HOST_SYSTEM_PROCESSOR} MATCHES "aarch64*")
   message(STATUS "ARM 64bit processor detected, will use NEON by default.")
