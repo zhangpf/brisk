@@ -45,6 +45,7 @@
 
 #include <algorithm>
 #include <stdexcept>
+#include <functional>
 
 #include <brisk/brisk-feature-detector.h>
 #include <brisk/internal/brisk-scale-space.h>
